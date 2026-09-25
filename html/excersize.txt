@@ -1,0 +1,7 @@
+1.create html page to display one 300 words english story.using heading,b,i,u font tag.
+2.create html page to display basic info about bhavnagar city using heading,b,i,u font tag.
+3.create html page to display 3 gujrati culture receipe using heading,b,i,u tag.
+4.create a web page that will display 5 ipl team and player detail info.use div,p and span tag.
+5.create a web page that will display 5 countries detail.display name,capital,president/pm,gdp,per person income and placees to visit .use div,p,span,ul,ol,li tag.
+6.create a horizontal web page of login.
+7.create vertical forgot password page.
