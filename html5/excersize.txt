@@ -1,2 +1,0 @@
-1.make one web page which contain the details and summary tag for different different cities and also take one audio and image in it.
-2.
