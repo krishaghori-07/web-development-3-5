@@ -1,0 +1,25 @@
+1.make one web page which contain the details and summary tag for different different cities and also take one audio and image in it.
+2.create a college website
+ create a complete college web page with the following sections:
+ 1.college name and logo
+ 2.navigation menu
+ 3.about the college
+ 4.course offered
+ 5.faculty information
+ 6.An admission form
+ 7.college and contact details
+ 8.footer
+
+3.create a job application form
+ which contain the follwing details:
+ -full name
+ -email
+ -phone number
+ -date of birth
+ -gender
+ -highest qualification
+ -skills
+ -years of experiance
+ -expected salary
+ -resume upload
+ -linkdin profile url.
