@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="pan">pancard number:
+            <br>xxxxx9999x
+        </label>
+        <br>
+        <input type="text" id="pan" name="pan" required
+        pattern="[a-zA-Z]{5}[0-9]{4}[a-zA-Z]{1}">
+        <br><br>
+        <label for="aadhar">
+            Aadhar card number:
+        </label>
+        <br>
+        <input type="text" id="aadhar" name="aadhar" required
+        pattern="[0-9]{12}">
+        <br><br>
+        <label for="credit">credit card number:</label>
+        <br>
+        <input type="text" id="credit" name="credit" required
+        pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}">
+        <br><br>
+        <label for="cvv">Cvv number:</label>
+        <br>
+        <input type="text" id="cvv" name="cvv" required
+        pattern="[0-9]{3}">
+        
+    </form>
+</body>
+</html>

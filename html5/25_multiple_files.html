@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multiple files</title>
+</head>
+<body>
+    <form action="success.html" method="post">
+        <table border="1" cellpadding="10" width="50%" align="center">
+            <tr>
+                <th bgcolor="yellow">
+                    compose email
+                </th>
+            </tr>
+            <tr>
+                <td>
+
+                    <input type="email" name="email" id="email" placeholder="enter your email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="subject" id="subject" placeholder="enter subject">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Attachment
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="file" name="Attachment" id="Attachment"
+                    multiple accept=".doc,.docx,.xls,.xlsx,.ppt,.pptx,.pdf">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="address" id="address" required
+                    placeholder="your address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">send email</button>
+                    <button type="reset">clear all</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
