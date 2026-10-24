@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <style>
+        body{
+            margin:0;
+            font-family:Arial;
+            background-color:#f0f8ff;
+        }
+        nav{
+            background-color:#333;
+            padding:20px;
+            text-align:center;
+        }
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:20px;
+            font-size:18px;
+        }
+        nav a:hover{
+            color:yellow;
+        }
+        .home{
+            text-align:center;
+            padding: 60px;
+            background-color:lightblue;
+        }
+        .home h1{
+            font-size:40px;
+            color:#333;
+        }
+        .home p{
+            font-size:18px;
+        }
+        .home button
+        {
+            padding:12px 25px;
+            background-color:#333;
+            color: white;
+            border: none;
+            cursor:pointer;
+        }
+        .home button:hover{
+            background-color: purple;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+        }
+        .card{
+            background-color:white;
+            padding:25px;
+            width: 200px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow:0 0 10px gray;
+        }
+        .card:hover{
+            background-color:lightyellow;
+        }
+        footer{
+            background-color:#333;
+            color:white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="home">
+        <h1>welcome to my website!</h1>
+        <p>learn ,explore and create smoething amazing</p>
+        <button>get started</button>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2>HTML</h2>
+            <p>create the structure of a web page.</p>
+        </div>
+        <div class="card">
+            <h2>css</h2>
+            <p>make your website beautiful</p>
+        </div>
+        <div class="card">
+            <h2>javascript</h2>
+            <p>add functionality to your website.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&#xa9;2026 my website|All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
