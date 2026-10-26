@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color:#eeeeff;
+            text-align:center;
+        }
+        h1{
+            color:purple;
+        }
+        .container
+        {
+            display:flex;
+            justify-content: center;
+            gap:25px;
+        }
+        .card{
+            background-color:white;
+            width:250px;
+            padding: 25px;
+            border-radius:15px;
+            box-shadow: 0 4px 10px gray;
+        }
+        @media(max-width:768px)
+        {
+            body{
+                background-color:lightyellow;
+            }
+            h1{
+                color:orange;
+            }
+            .card
+            {
+                width:40%;
+            }
+        }
+        @media(max-width:480px)
+        {
+            body{
+                background-color:lightpink;
+            }
+            h1{
+                color:crimson;
+                font-size:24px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>our students</h1>
+    <div class="container">
+        <div class="card">
+            <h2>ABC</h2>
+            <p>web developer</p>
+        </div>
+        <div class="card">
+            <h2>XYZ</h2>
+            <p>css designer</p>
+        </div>
+        <div class="card">
+            <h2>EFG</h2>
+            <p>Android developer</p>
+        </div>
+    </div>
+</body>
+</html>
