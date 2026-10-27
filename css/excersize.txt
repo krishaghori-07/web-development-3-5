@@ -1,0 +1,13 @@
+1.create a web page with heading,paragraph and button
+-change text colors and background colors.
+-use different fonts and font-sizes.
+-add padding and margins
+2.create three boxes containing a title,images and description
+-add borders and round corners.
+-apply shadow.
+-align the cards in one row.
+3.create four different buttons using css
+-hover effects
+-border-radius.
+-gradient backgrounds.
+-smooth-transitions.
